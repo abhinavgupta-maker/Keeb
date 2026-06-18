@@ -1,4 +1,4 @@
-<img width="1092" height="843" alt="image" src="https://github.com/user-attachments/assets/771e68de-d74b-4b73-9566-4e5daf2eac1e" /># Keeb
+# Keeb
 
 This is my first ever 75% keyboard which consists of a Rotary encoder, 0.91' Oled Display and 4 Macro keys which helps for shortcuts. 
 
