@@ -2,6 +2,10 @@
 
 This is my first ever 75% keyboard which consists of a Rotary encoder, 0.91' Oled Display and 4 Macro keys which helps for shortcuts. 
 
+# Zine
+
+<img width="540" height="828" alt="KEEB" src="https://github.com/user-attachments/assets/5ccb5b27-3488-4ba4-930c-2c2e727040bd" />
+
 # Usage
 
 I will use this with my laptop almost everyday because i have been using my laptop keyboard ever since and i wanted and upgrade so i made this which fulfills my requirements of both a project and keyboard for everyday. And this would be used a lot by me like i play Games and do coding all day.
