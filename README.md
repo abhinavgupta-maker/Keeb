@@ -13,8 +13,12 @@ I just wanted a personalised keyboard which is not too expensive and has the thi
 # PCB
 
 <img width="1565" height="767" alt="image" src="https://github.com/user-attachments/assets/2c8d8068-9445-4879-858a-27ae5c55bca0" />
+
+# Schematic
 <img width="1167" height="791" alt="image" src="https://github.com/user-attachments/assets/0c13e933-c813-41f6-8045-98709be173d0" />
 <img width="1092" height="843" alt="image" src="https://github.com/user-attachments/assets/005e77fc-9750-4ee3-a6f3-be2dca2e36cd" />
+
+# PCB 3D Model
 <img width="1217" height="705" alt="image" src="https://github.com/user-attachments/assets/342a1e60-3eef-47e5-a091-d4f0356fd0ef" />
 
 
@@ -22,6 +26,12 @@ I just wanted a personalised keyboard which is not too expensive and has the thi
 
 <img width="1350" height="707" alt="Screenshot 2026-06-18 215316" src="https://github.com/user-attachments/assets/2d53fb7b-9b8a-492e-841d-d2b7ce93eaf1" />
 <img width="1237" height="713" alt="image" src="https://github.com/user-attachments/assets/ff14dc89-79a6-4e98-806b-d4f7f9809615" />
+
+# Assembly Steps
+
+1) Get all the things stated in the BOM.
+2) Solder all the components as shown in the PCB 3D Model.
+3) 
 
 | Item Name          | Qty | Link                                                                                                                                                                                                                                                                                                                                                                                                                                         | Cost         |
 |--------------------|-----|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
