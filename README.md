@@ -19,7 +19,7 @@ I just wanted a personalised keyboard which is not too expensive and has the thi
 <img width="1565" height="767" alt="image" src="https://github.com/user-attachments/assets/2c8d8068-9445-4879-858a-27ae5c55bca0" />
 
 # Schematic
-<img width="1167" height="791" alt="image" src="https://github.com/user-attachments/assets/0c13e933-c813-41f6-8045-98709be173d0" />
+<img width="1241" height="762" alt="image" src="https://github.com/user-attachments/assets/18fcfa6e-22ee-4aeb-bf5f-eeee6ace11b9" />
 <img width="1092" height="843" alt="image" src="https://github.com/user-attachments/assets/005e77fc-9750-4ee3-a6f3-be2dca2e36cd" />
 
 # PCB 3D Model
