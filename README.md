@@ -4,7 +4,7 @@ This is my first ever 75% keyboard which consists of a Rotary encoder, 0.91' Ole
 
 # Zine
 
-<img width="540" height="828" alt="KEEB" src="https://github.com/user-attachments/assets/16f94675-5016-4c4e-b908-d9ef1a529fc3" />
+<img width="420" height="595" alt="image" src="https://github.com/user-attachments/assets/6013ec1b-395b-4203-9ea0-41f249d9c1da" />
 
 # Usage
 
