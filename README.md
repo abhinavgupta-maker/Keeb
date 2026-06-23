@@ -27,8 +27,7 @@ I just wanted a personalised keyboard which is not too expensive and has the thi
 
 
 # CAD
-
-<img width="1350" height="707" alt="Screenshot 2026-06-18 215316" src="https://github.com/user-attachments/assets/2d53fb7b-9b8a-492e-841d-d2b7ce93eaf1" />
+<img width="1086" height="745" alt="Screenshot 2026-06-23 173947" src="https://github.com/user-attachments/assets/62148ab3-665d-435e-a7ce-2e38867fe30f" />
 <img width="1237" height="713" alt="image" src="https://github.com/user-attachments/assets/ff14dc89-79a6-4e98-806b-d4f7f9809615" />
 
 # Assembly Steps
