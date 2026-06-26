@@ -35,10 +35,11 @@ I just wanted a personalised keyboard which is not too expensive and has the thi
 1) Get all the things stated in the BOM.
 2) Solder all the components as shown in the PCB 3D Model.
 3) Get the Case and screws
-4) fix the pcb with the case and make sure to make it look gud.
-5) Now attach the keycaps on the mechanical switches.
-6) now flash your pi pico using the Firmware given
-7) Now you are done and you can use the Keyboard Now :)
+4) fix the pcb on the stands provides and put the lid
+5) use M4 screws and screw the lid down to make sure its fixed
+6) Now attach the keycaps on the mechanical switches.
+7) now flash your pi pico using the Firmware given
+8) Now you are done and you can use the Keyboard Now :)
 
 | Item Name          | Qty | Link                                                                                                                                                                                                                                                                                                                                                                                                                                         | Cost         |
 |--------------------|-----|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
