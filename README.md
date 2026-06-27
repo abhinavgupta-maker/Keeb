@@ -14,6 +14,10 @@ I will use this with my laptop almost everyday because i have been using my lapt
 
 I just wanted a personalised keyboard which is not too expensive and has the things i need.
 
+# My motivation to make this
+
+So, i was actually stuck with one project to make for qualification and i am not good at CAD so i wanted a PCB project which can be used by me everyday and i learnt more about PCB designing like all the mistakes i did with routing and layout which made me a lot better in it.
+
 # PCB
 
 <img width="1565" height="767" alt="image" src="https://github.com/user-attachments/assets/2c8d8068-9445-4879-858a-27ae5c55bca0" />
