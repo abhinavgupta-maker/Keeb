@@ -1,0 +1,502 @@
+INFO: kbplacer_plugin_action.py:73: Plugin version: 0.16
+INFO: kbplacer_plugin_action.py:74: Python version: '3.11.5 (main, Jan 23 2026, 07:39:48) [MSC v.1944 64 bit (AMD64)]'
+INFO: kbplacer_plugin_action.py:75: KiCad version: 10.0.3 with 4.2.2 msw (phoenix) wxWidgets 3.3.2
+INFO: kbplacer_dialog.py:695: Language: en
+INFO: kbplacer_plugin_action.py:83: GUI state: {"layout_path": "C:\\Users\\chand\\Downloads\\keyboard-layout (1).json", "key_distance": [19.05, 19.05], "key_info": {"annotation_format": "C{}", "position_option": "Default", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Back"}, "template_path": "", "start_index": 1}, "enable_diode_placement": true, "route_switches_with_diodes": true, "optimize_diodes_orientation": true, "diode_info": {"annotation_format": "C{}", "position_option": "Relative", "position": null, "template_path": "", "start_index": -1}, "additional_elements": [{"annotation_format": "C{}", "position_option": "Custom", "position": {"x": 0.0, "y": 0.0, "orientation": 0.0, "side": "Back"}, "template_path": "", "start_index": -1}], "route_rows_and_columns": false, "template_path": "", "generate_outline": false, "outline_delta": 0.0, "layout_offset": null}
+DEBUG: key_placer.py:143: Switches by nets: defaultdict(<class 'list'>, {frozenset({'+5V', 'GND'}): ['C7', 'C72', 'C23', 'C5', 'C66', 'C41', 'C36', 'C22', 'C71', 'C62', 'C40', 'C50', 'C42', 'C10', 'C32', 'C3', 'C69', 'C19', 'C16', 'C27', 'C78', 'C43', 'C8', 'C77', 'C49', 'C80', 'C2', 'C59', 'C31', 'C74', 'C9', 'C65', 'C64', 'C37', 'C20', 'C58', 'C73', 'C4', 'C18', 'C21', 'C34', 'C52', 'C53', 'C11', 'C39', 'C25', 'C70', 'C51', 'C61', 'C75', 'C57', 'C33', 'C30', 'C17', 'C38', 'C26', 'C68', 'C48', 'C76', 'C1', 'C45', 'C35', 'C54', 'C44', 'C24', 'C6', 'C46', 'C13', 'C60', 'C14', 'C15', 'C47', 'C79', 'C55', 'C67', 'C28', 'C29', 'C63', 'C12', 'C56']})
+DEBUG: key_placer.py:147: Diodes by switch: {}
+DEBUG: board_modifier.py:73: Searching for C1 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+INFO: key_placer.py:624: Looking for connection template between C1 and other elements
+DEBUG: board_modifier.py:132: Getting C1 footprint position: (370725000, 329462500)
+INFO: key_placer.py:668: Got connection template: 
+DEBUG: key_placer.py:143: Switches by nets: defaultdict(<class 'list'>, {frozenset({'+5V', 'GND'}): ['C7', 'C72', 'C23', 'C5', 'C66', 'C41', 'C36', 'C22', 'C71', 'C62', 'C40', 'C50', 'C42', 'C10', 'C32', 'C3', 'C69', 'C19', 'C16', 'C27', 'C78', 'C43', 'C8', 'C77', 'C49', 'C80', 'C2', 'C59', 'C31', 'C74', 'C9', 'C65', 'C64', 'C37', 'C20', 'C58', 'C73', 'C4', 'C18', 'C21', 'C34', 'C52', 'C53', 'C11', 'C39', 'C25', 'C70', 'C51', 'C61', 'C75', 'C57', 'C33', 'C30', 'C17', 'C38', 'C26', 'C68', 'C48', 'C76', 'C1', 'C45', 'C35', 'C54', 'C44', 'C24', 'C6', 'C46', 'C13', 'C60', 'C14', 'C15', 'C47', 'C79', 'C55', 'C67', 'C28', 'C29', 'C63', 'C12', 'C56']})
+DEBUG: key_placer.py:147: Diodes by switch: {}
+INFO: kle_serial.py:1031: User layout: [{'pcb': True}, [{'a': 7}, '', {'x': 1}, '', '', '', '', {'x': 0.5}, '', '', '', '', {'x': 0.5}, '', '', '', '', {'x': 0.5}, ''], [{'y': 0.5}, '', '', '', '', '', '', '', '', '', '', '', '', '', {'w2': 2}, ''], [{'w2': 1.5}, '', {'x': 0.5}, '', '', '', '', '', '', '', '', '', '', '', '', {'w2': 1.5}, ''], [{'w2': 1.75}, '', {'x': 0.75}, '', '', '', '', '', '', '', '', '', '', '', {'w2': 2.25}, ''], [{'w2': 2.25}, '', {'x': 1.23}, '', '', '', '', '', '', '', '', '', '', {'w2': 2.75}, '', {'x': 3.0199999999999996}, ''], ['', '', '', '', {'w': 6.25}, '', '', {'w2': 1.5}, '', {'x': 0.5, 'w2': 1.2}, '', {'x': 0.1999999999999993}, '', {'x': 0.3000000000000007}, '', '', '']]
+DEBUG: key_placer.py:755: Using key 1U distance: (19.05, 19.05) mm
+DEBUG: key_placer.py:773: Layout offset: (28575000, 28575000)
+DEBUG: kle_serial.py:1125: Layout with: x_ortholinear_keys=31, y_ortholinear_keys=14, rotated_keys=0, encoders=0, iso_enters=0 and unrecognized_shape_keys=9
+DEBUG: kle_serial.py:1150: Layout tagged: [<KeyboardTag.ROW_STAGGERED: 2>, <KeyboardTag.WITH_UNRECOGNIZED_KEY_SHAPE: 6>]
+DEBUG: board_modifier.py:119: Setting C1 footprint position: (38100000, 38100000)
+DEBUG: board_modifier.py:119: Setting C2 footprint position: (76200000, 38100000)
+DEBUG: board_modifier.py:119: Setting C3 footprint position: (95250000, 38100000)
+DEBUG: board_modifier.py:119: Setting C4 footprint position: (114300000, 38100000)
+DEBUG: board_modifier.py:119: Setting C5 footprint position: (133350000, 38100000)
+DEBUG: board_modifier.py:119: Setting C6 footprint position: (161925000, 38100000)
+DEBUG: board_modifier.py:119: Setting C7 footprint position: (180975000, 38100000)
+DEBUG: board_modifier.py:119: Setting C8 footprint position: (200025000, 38100000)
+DEBUG: board_modifier.py:119: Setting C9 footprint position: (219075000, 38100000)
+DEBUG: board_modifier.py:119: Setting C10 footprint position: (247650000, 38100000)
+DEBUG: board_modifier.py:119: Setting C11 footprint position: (266700000, 38100000)
+DEBUG: board_modifier.py:119: Setting C12 footprint position: (285750000, 38100000)
+DEBUG: board_modifier.py:119: Setting C13 footprint position: (304800000, 38100000)
+DEBUG: board_modifier.py:119: Setting C14 footprint position: (333375000, 38100000)
+DEBUG: board_modifier.py:119: Setting C15 footprint position: (38100000, 66675000)
+DEBUG: board_modifier.py:119: Setting C16 footprint position: (57150000, 66675000)
+DEBUG: board_modifier.py:119: Setting C17 footprint position: (76200000, 66675000)
+DEBUG: board_modifier.py:119: Setting C18 footprint position: (95250000, 66675000)
+DEBUG: board_modifier.py:119: Setting C19 footprint position: (114300000, 66675000)
+DEBUG: board_modifier.py:119: Setting C20 footprint position: (133350000, 66675000)
+DEBUG: board_modifier.py:119: Setting C21 footprint position: (152400000, 66675000)
+DEBUG: board_modifier.py:119: Setting C22 footprint position: (171450000, 66675000)
+DEBUG: board_modifier.py:119: Setting C23 footprint position: (190500000, 66675000)
+DEBUG: board_modifier.py:119: Setting C24 footprint position: (209550000, 66675000)
+DEBUG: board_modifier.py:119: Setting C25 footprint position: (228600000, 66675000)
+DEBUG: board_modifier.py:119: Setting C26 footprint position: (247650000, 66675000)
+DEBUG: board_modifier.py:119: Setting C27 footprint position: (266700000, 66675000)
+DEBUG: board_modifier.py:119: Setting C28 footprint position: (285750000, 66675000)
+DEBUG: board_modifier.py:119: Setting C29 footprint position: (38100000, 85725000)
+DEBUG: board_modifier.py:119: Setting C30 footprint position: (66675000, 85725000)
+DEBUG: board_modifier.py:119: Setting C31 footprint position: (85725000, 85725000)
+DEBUG: board_modifier.py:119: Setting C32 footprint position: (104775000, 85725000)
+DEBUG: board_modifier.py:119: Setting C33 footprint position: (123825000, 85725000)
+DEBUG: board_modifier.py:119: Setting C34 footprint position: (142875000, 85725000)
+DEBUG: board_modifier.py:119: Setting C35 footprint position: (161925000, 85725000)
+DEBUG: board_modifier.py:119: Setting C36 footprint position: (180975000, 85725000)
+DEBUG: board_modifier.py:119: Setting C37 footprint position: (200025000, 85725000)
+DEBUG: board_modifier.py:119: Setting C38 footprint position: (219075000, 85725000)
+DEBUG: board_modifier.py:119: Setting C39 footprint position: (238125000, 85725000)
+DEBUG: board_modifier.py:119: Setting C40 footprint position: (257175000, 85725000)
+DEBUG: board_modifier.py:119: Setting C41 footprint position: (276225000, 85725000)
+DEBUG: board_modifier.py:119: Setting C42 footprint position: (295275000, 85725000)
+DEBUG: board_modifier.py:119: Setting C43 footprint position: (38100000, 104775000)
+DEBUG: board_modifier.py:119: Setting C44 footprint position: (71437500, 104775000)
+DEBUG: board_modifier.py:119: Setting C45 footprint position: (90487500, 104775000)
+DEBUG: board_modifier.py:119: Setting C46 footprint position: (109537500, 104775000)
+DEBUG: board_modifier.py:119: Setting C47 footprint position: (128587500, 104775000)
+DEBUG: board_modifier.py:119: Setting C48 footprint position: (147637500, 104775000)
+DEBUG: board_modifier.py:119: Setting C49 footprint position: (166687500, 104775000)
+DEBUG: board_modifier.py:119: Setting C50 footprint position: (185737500, 104775000)
+DEBUG: board_modifier.py:119: Setting C51 footprint position: (204787500, 104775000)
+DEBUG: board_modifier.py:119: Setting C52 footprint position: (223837500, 104775000)
+DEBUG: board_modifier.py:119: Setting C53 footprint position: (242887500, 104775000)
+DEBUG: board_modifier.py:119: Setting C54 footprint position: (261937500, 104775000)
+DEBUG: board_modifier.py:119: Setting C55 footprint position: (280987500, 104775000)
+DEBUG: board_modifier.py:119: Setting C56 footprint position: (38100000, 123825000)
+DEBUG: board_modifier.py:119: Setting C57 footprint position: (80581500, 123825000)
+DEBUG: board_modifier.py:119: Setting C58 footprint position: (99631500, 123825000)
+DEBUG: board_modifier.py:119: Setting C59 footprint position: (118681500, 123825000)
+DEBUG: board_modifier.py:119: Setting C60 footprint position: (137731500, 123825000)
+DEBUG: board_modifier.py:119: Setting C61 footprint position: (156781500, 123825000)
+DEBUG: board_modifier.py:119: Setting C62 footprint position: (175831500, 123825000)
+DEBUG: board_modifier.py:119: Setting C63 footprint position: (194881500, 123825000)
+DEBUG: board_modifier.py:119: Setting C64 footprint position: (213931500, 123825000)
+DEBUG: board_modifier.py:119: Setting C65 footprint position: (232981500, 123825000)
+DEBUG: board_modifier.py:119: Setting C66 footprint position: (252031500, 123825000)
+DEBUG: board_modifier.py:119: Setting C67 footprint position: (271081500, 123825000)
+DEBUG: board_modifier.py:119: Setting C68 footprint position: (347662500, 123825000)
+DEBUG: board_modifier.py:119: Setting C69 footprint position: (38100000, 142875000)
+DEBUG: board_modifier.py:119: Setting C70 footprint position: (57150000, 142875000)
+DEBUG: board_modifier.py:119: Setting C71 footprint position: (76200000, 142875000)
+DEBUG: board_modifier.py:119: Setting C72 footprint position: (95250000, 142875000)
+DEBUG: board_modifier.py:119: Setting C73 footprint position: (164306250, 142875000)
+DEBUG: board_modifier.py:119: Setting C74 footprint position: (233362500, 142875000)
+DEBUG: board_modifier.py:119: Setting C75 footprint position: (252412500, 142875000)
+DEBUG: board_modifier.py:119: Setting C76 footprint position: (280987500, 142875000)
+DEBUG: board_modifier.py:119: Setting C77 footprint position: (303847500, 142875000)
+DEBUG: board_modifier.py:119: Setting C78 footprint position: (328612500, 142875000)
+DEBUG: board_modifier.py:119: Setting C79 footprint position: (347662500, 142875000)
+DEBUG: board_modifier.py:119: Setting C80 footprint position: (366712500, 142875000)
+INFO: key_placer.py:1173: Diode info: []
+DEBUG: key_placer.py:889: Optimizing orientation of C1 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C2 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C3 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C4 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C5 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C6 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C7 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C8 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C9 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C10 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C11 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C12 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C13 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C14 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C15 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C16 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C17 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C18 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C19 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C20 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C21 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C22 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C23 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C24 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C25 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C26 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C27 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C28 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C29 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C30 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C31 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C32 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C33 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C34 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C35 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C36 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C37 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C38 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C39 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C40 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C41 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C42 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C43 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C44 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C45 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C46 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C47 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C48 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C49 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C50 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C51 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C52 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C53 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C54 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C55 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C56 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C57 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C58 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C59 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C60 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C61 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C62 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C63 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C64 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C65 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C66 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C67 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C68 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C69 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C70 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C71 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C72 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C73 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C74 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C75 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C76 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C77 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C78 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C79 diodes
+DEBUG: key_placer.py:889: Optimizing orientation of C80 diodes
+DEBUG: key_placer.py:928: Placing additional elements for C7
+DEBUG: board_modifier.py:132: Getting C7 footprint position: (180975000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional C7 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C7 footprint position: (180975000, 38100000)
+DEBUG: key_placer.py:928: Placing additional elements for C72
+DEBUG: board_modifier.py:132: Getting C72 footprint position: (95250000, 142875000)
+DEBUG: board_modifier.py:84: Searching for optional C72 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C72 footprint position: (95250000, 142875000)
+DEBUG: key_placer.py:928: Placing additional elements for C23
+DEBUG: board_modifier.py:132: Getting C23 footprint position: (190500000, 66675000)
+DEBUG: board_modifier.py:84: Searching for optional C23 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C23 footprint position: (190500000, 66675000)
+DEBUG: key_placer.py:928: Placing additional elements for C5
+DEBUG: board_modifier.py:132: Getting C5 footprint position: (133350000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional C5 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C5 footprint position: (133350000, 38100000)
+DEBUG: key_placer.py:928: Placing additional elements for C66
+DEBUG: board_modifier.py:132: Getting C66 footprint position: (252031500, 123825000)
+DEBUG: board_modifier.py:84: Searching for optional C66 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C66 footprint position: (252031500, 123825000)
+DEBUG: key_placer.py:928: Placing additional elements for C41
+DEBUG: board_modifier.py:132: Getting C41 footprint position: (276225000, 85725000)
+DEBUG: board_modifier.py:84: Searching for optional C41 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C41 footprint position: (276225000, 85725000)
+DEBUG: key_placer.py:928: Placing additional elements for C36
+DEBUG: board_modifier.py:132: Getting C36 footprint position: (180975000, 85725000)
+DEBUG: board_modifier.py:84: Searching for optional C36 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C36 footprint position: (180975000, 85725000)
+DEBUG: key_placer.py:928: Placing additional elements for C22
+DEBUG: board_modifier.py:132: Getting C22 footprint position: (171450000, 66675000)
+DEBUG: board_modifier.py:84: Searching for optional C22 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C22 footprint position: (171450000, 66675000)
+DEBUG: key_placer.py:928: Placing additional elements for C71
+DEBUG: board_modifier.py:132: Getting C71 footprint position: (76200000, 142875000)
+DEBUG: board_modifier.py:84: Searching for optional C71 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C71 footprint position: (76200000, 142875000)
+DEBUG: key_placer.py:928: Placing additional elements for C62
+DEBUG: board_modifier.py:132: Getting C62 footprint position: (175831500, 123825000)
+DEBUG: board_modifier.py:84: Searching for optional C62 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C62 footprint position: (175831500, 123825000)
+DEBUG: key_placer.py:928: Placing additional elements for C40
+DEBUG: board_modifier.py:132: Getting C40 footprint position: (257175000, 85725000)
+DEBUG: board_modifier.py:84: Searching for optional C40 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C40 footprint position: (257175000, 85725000)
+DEBUG: key_placer.py:928: Placing additional elements for C50
+DEBUG: board_modifier.py:132: Getting C50 footprint position: (185737500, 104775000)
+DEBUG: board_modifier.py:84: Searching for optional C50 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C50 footprint position: (185737500, 104775000)
+DEBUG: key_placer.py:928: Placing additional elements for C42
+DEBUG: board_modifier.py:132: Getting C42 footprint position: (295275000, 85725000)
+DEBUG: board_modifier.py:84: Searching for optional C42 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C42 footprint position: (295275000, 85725000)
+DEBUG: key_placer.py:928: Placing additional elements for C10
+DEBUG: board_modifier.py:132: Getting C10 footprint position: (247650000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional C10 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C10 footprint position: (247650000, 38100000)
+DEBUG: key_placer.py:928: Placing additional elements for C32
+DEBUG: board_modifier.py:132: Getting C32 footprint position: (104775000, 85725000)
+DEBUG: board_modifier.py:84: Searching for optional C32 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C32 footprint position: (104775000, 85725000)
+DEBUG: key_placer.py:928: Placing additional elements for C3
+DEBUG: board_modifier.py:132: Getting C3 footprint position: (95250000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional C3 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C3 footprint position: (95250000, 38100000)
+DEBUG: key_placer.py:928: Placing additional elements for C69
+DEBUG: board_modifier.py:132: Getting C69 footprint position: (38100000, 142875000)
+DEBUG: board_modifier.py:84: Searching for optional C69 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C69 footprint position: (38100000, 142875000)
+DEBUG: key_placer.py:928: Placing additional elements for C19
+DEBUG: board_modifier.py:132: Getting C19 footprint position: (114300000, 66675000)
+DEBUG: board_modifier.py:84: Searching for optional C19 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C19 footprint position: (114300000, 66675000)
+DEBUG: key_placer.py:928: Placing additional elements for C16
+DEBUG: board_modifier.py:132: Getting C16 footprint position: (57150000, 66675000)
+DEBUG: board_modifier.py:84: Searching for optional C16 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C16 footprint position: (57150000, 66675000)
+DEBUG: key_placer.py:928: Placing additional elements for C27
+DEBUG: board_modifier.py:132: Getting C27 footprint position: (266700000, 66675000)
+DEBUG: board_modifier.py:84: Searching for optional C27 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C27 footprint position: (266700000, 66675000)
+DEBUG: key_placer.py:928: Placing additional elements for C78
+DEBUG: board_modifier.py:132: Getting C78 footprint position: (328612500, 142875000)
+DEBUG: board_modifier.py:84: Searching for optional C78 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C78 footprint position: (328612500, 142875000)
+DEBUG: key_placer.py:928: Placing additional elements for C43
+DEBUG: board_modifier.py:132: Getting C43 footprint position: (38100000, 104775000)
+DEBUG: board_modifier.py:84: Searching for optional C43 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C43 footprint position: (38100000, 104775000)
+DEBUG: key_placer.py:928: Placing additional elements for C8
+DEBUG: board_modifier.py:132: Getting C8 footprint position: (200025000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional C8 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C8 footprint position: (200025000, 38100000)
+DEBUG: key_placer.py:928: Placing additional elements for C77
+DEBUG: board_modifier.py:132: Getting C77 footprint position: (303847500, 142875000)
+DEBUG: board_modifier.py:84: Searching for optional C77 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C77 footprint position: (303847500, 142875000)
+DEBUG: key_placer.py:928: Placing additional elements for C49
+DEBUG: board_modifier.py:132: Getting C49 footprint position: (166687500, 104775000)
+DEBUG: board_modifier.py:84: Searching for optional C49 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C49 footprint position: (166687500, 104775000)
+DEBUG: key_placer.py:928: Placing additional elements for C80
+DEBUG: board_modifier.py:132: Getting C80 footprint position: (366712500, 142875000)
+DEBUG: board_modifier.py:84: Searching for optional C80 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C80 footprint position: (366712500, 142875000)
+DEBUG: key_placer.py:928: Placing additional elements for C2
+DEBUG: board_modifier.py:132: Getting C2 footprint position: (76200000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional C2 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C2 footprint position: (76200000, 38100000)
+DEBUG: key_placer.py:928: Placing additional elements for C59
+DEBUG: board_modifier.py:132: Getting C59 footprint position: (118681500, 123825000)
+DEBUG: board_modifier.py:84: Searching for optional C59 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C59 footprint position: (118681500, 123825000)
+DEBUG: key_placer.py:928: Placing additional elements for C31
+DEBUG: board_modifier.py:132: Getting C31 footprint position: (85725000, 85725000)
+DEBUG: board_modifier.py:84: Searching for optional C31 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C31 footprint position: (85725000, 85725000)
+DEBUG: key_placer.py:928: Placing additional elements for C74
+DEBUG: board_modifier.py:132: Getting C74 footprint position: (233362500, 142875000)
+DEBUG: board_modifier.py:84: Searching for optional C74 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C74 footprint position: (233362500, 142875000)
+DEBUG: key_placer.py:928: Placing additional elements for C9
+DEBUG: board_modifier.py:132: Getting C9 footprint position: (219075000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional C9 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C9 footprint position: (219075000, 38100000)
+DEBUG: key_placer.py:928: Placing additional elements for C65
+DEBUG: board_modifier.py:132: Getting C65 footprint position: (232981500, 123825000)
+DEBUG: board_modifier.py:84: Searching for optional C65 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C65 footprint position: (232981500, 123825000)
+DEBUG: key_placer.py:928: Placing additional elements for C64
+DEBUG: board_modifier.py:132: Getting C64 footprint position: (213931500, 123825000)
+DEBUG: board_modifier.py:84: Searching for optional C64 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C64 footprint position: (213931500, 123825000)
+DEBUG: key_placer.py:928: Placing additional elements for C37
+DEBUG: board_modifier.py:132: Getting C37 footprint position: (200025000, 85725000)
+DEBUG: board_modifier.py:84: Searching for optional C37 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C37 footprint position: (200025000, 85725000)
+DEBUG: key_placer.py:928: Placing additional elements for C20
+DEBUG: board_modifier.py:132: Getting C20 footprint position: (133350000, 66675000)
+DEBUG: board_modifier.py:84: Searching for optional C20 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C20 footprint position: (133350000, 66675000)
+DEBUG: key_placer.py:928: Placing additional elements for C58
+DEBUG: board_modifier.py:132: Getting C58 footprint position: (99631500, 123825000)
+DEBUG: board_modifier.py:84: Searching for optional C58 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C58 footprint position: (99631500, 123825000)
+DEBUG: key_placer.py:928: Placing additional elements for C73
+DEBUG: board_modifier.py:132: Getting C73 footprint position: (164306250, 142875000)
+DEBUG: board_modifier.py:84: Searching for optional C73 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C73 footprint position: (164306250, 142875000)
+DEBUG: key_placer.py:928: Placing additional elements for C4
+DEBUG: board_modifier.py:132: Getting C4 footprint position: (114300000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional C4 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C4 footprint position: (114300000, 38100000)
+DEBUG: key_placer.py:928: Placing additional elements for C18
+DEBUG: board_modifier.py:132: Getting C18 footprint position: (95250000, 66675000)
+DEBUG: board_modifier.py:84: Searching for optional C18 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C18 footprint position: (95250000, 66675000)
+DEBUG: key_placer.py:928: Placing additional elements for C21
+DEBUG: board_modifier.py:132: Getting C21 footprint position: (152400000, 66675000)
+DEBUG: board_modifier.py:84: Searching for optional C21 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C21 footprint position: (152400000, 66675000)
+DEBUG: key_placer.py:928: Placing additional elements for C34
+DEBUG: board_modifier.py:132: Getting C34 footprint position: (142875000, 85725000)
+DEBUG: board_modifier.py:84: Searching for optional C34 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C34 footprint position: (142875000, 85725000)
+DEBUG: key_placer.py:928: Placing additional elements for C52
+DEBUG: board_modifier.py:132: Getting C52 footprint position: (223837500, 104775000)
+DEBUG: board_modifier.py:84: Searching for optional C52 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C52 footprint position: (223837500, 104775000)
+DEBUG: key_placer.py:928: Placing additional elements for C53
+DEBUG: board_modifier.py:132: Getting C53 footprint position: (242887500, 104775000)
+DEBUG: board_modifier.py:84: Searching for optional C53 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C53 footprint position: (242887500, 104775000)
+DEBUG: key_placer.py:928: Placing additional elements for C11
+DEBUG: board_modifier.py:132: Getting C11 footprint position: (266700000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional C11 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C11 footprint position: (266700000, 38100000)
+DEBUG: key_placer.py:928: Placing additional elements for C39
+DEBUG: board_modifier.py:132: Getting C39 footprint position: (238125000, 85725000)
+DEBUG: board_modifier.py:84: Searching for optional C39 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C39 footprint position: (238125000, 85725000)
+DEBUG: key_placer.py:928: Placing additional elements for C25
+DEBUG: board_modifier.py:132: Getting C25 footprint position: (228600000, 66675000)
+DEBUG: board_modifier.py:84: Searching for optional C25 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C25 footprint position: (228600000, 66675000)
+DEBUG: key_placer.py:928: Placing additional elements for C70
+DEBUG: board_modifier.py:132: Getting C70 footprint position: (57150000, 142875000)
+DEBUG: board_modifier.py:84: Searching for optional C70 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C70 footprint position: (57150000, 142875000)
+DEBUG: key_placer.py:928: Placing additional elements for C51
+DEBUG: board_modifier.py:132: Getting C51 footprint position: (204787500, 104775000)
+DEBUG: board_modifier.py:84: Searching for optional C51 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C51 footprint position: (204787500, 104775000)
+DEBUG: key_placer.py:928: Placing additional elements for C61
+DEBUG: board_modifier.py:132: Getting C61 footprint position: (156781500, 123825000)
+DEBUG: board_modifier.py:84: Searching for optional C61 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C61 footprint position: (156781500, 123825000)
+DEBUG: key_placer.py:928: Placing additional elements for C75
+DEBUG: board_modifier.py:132: Getting C75 footprint position: (252412500, 142875000)
+DEBUG: board_modifier.py:84: Searching for optional C75 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C75 footprint position: (252412500, 142875000)
+DEBUG: key_placer.py:928: Placing additional elements for C57
+DEBUG: board_modifier.py:132: Getting C57 footprint position: (80581500, 123825000)
+DEBUG: board_modifier.py:84: Searching for optional C57 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C57 footprint position: (80581500, 123825000)
+DEBUG: key_placer.py:928: Placing additional elements for C33
+DEBUG: board_modifier.py:132: Getting C33 footprint position: (123825000, 85725000)
+DEBUG: board_modifier.py:84: Searching for optional C33 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C33 footprint position: (123825000, 85725000)
+DEBUG: key_placer.py:928: Placing additional elements for C30
+DEBUG: board_modifier.py:132: Getting C30 footprint position: (66675000, 85725000)
+DEBUG: board_modifier.py:84: Searching for optional C30 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C30 footprint position: (66675000, 85725000)
+DEBUG: key_placer.py:928: Placing additional elements for C17
+DEBUG: board_modifier.py:132: Getting C17 footprint position: (76200000, 66675000)
+DEBUG: board_modifier.py:84: Searching for optional C17 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C17 footprint position: (76200000, 66675000)
+DEBUG: key_placer.py:928: Placing additional elements for C38
+DEBUG: board_modifier.py:132: Getting C38 footprint position: (219075000, 85725000)
+DEBUG: board_modifier.py:84: Searching for optional C38 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C38 footprint position: (219075000, 85725000)
+DEBUG: key_placer.py:928: Placing additional elements for C26
+DEBUG: board_modifier.py:132: Getting C26 footprint position: (247650000, 66675000)
+DEBUG: board_modifier.py:84: Searching for optional C26 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C26 footprint position: (247650000, 66675000)
+DEBUG: key_placer.py:928: Placing additional elements for C68
+DEBUG: board_modifier.py:132: Getting C68 footprint position: (347662500, 123825000)
+DEBUG: board_modifier.py:84: Searching for optional C68 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C68 footprint position: (347662500, 123825000)
+DEBUG: key_placer.py:928: Placing additional elements for C48
+DEBUG: board_modifier.py:132: Getting C48 footprint position: (147637500, 104775000)
+DEBUG: board_modifier.py:84: Searching for optional C48 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C48 footprint position: (147637500, 104775000)
+DEBUG: key_placer.py:928: Placing additional elements for C76
+DEBUG: board_modifier.py:132: Getting C76 footprint position: (280987500, 142875000)
+DEBUG: board_modifier.py:84: Searching for optional C76 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C76 footprint position: (280987500, 142875000)
+DEBUG: key_placer.py:928: Placing additional elements for C1
+DEBUG: board_modifier.py:132: Getting C1 footprint position: (38100000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional C1 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C1 footprint position: (38100000, 38100000)
+DEBUG: key_placer.py:928: Placing additional elements for C45
+DEBUG: board_modifier.py:132: Getting C45 footprint position: (90487500, 104775000)
+DEBUG: board_modifier.py:84: Searching for optional C45 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C45 footprint position: (90487500, 104775000)
+DEBUG: key_placer.py:928: Placing additional elements for C35
+DEBUG: board_modifier.py:132: Getting C35 footprint position: (161925000, 85725000)
+DEBUG: board_modifier.py:84: Searching for optional C35 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C35 footprint position: (161925000, 85725000)
+DEBUG: key_placer.py:928: Placing additional elements for C54
+DEBUG: board_modifier.py:132: Getting C54 footprint position: (261937500, 104775000)
+DEBUG: board_modifier.py:84: Searching for optional C54 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C54 footprint position: (261937500, 104775000)
+DEBUG: key_placer.py:928: Placing additional elements for C44
+DEBUG: board_modifier.py:132: Getting C44 footprint position: (71437500, 104775000)
+DEBUG: board_modifier.py:84: Searching for optional C44 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C44 footprint position: (71437500, 104775000)
+DEBUG: key_placer.py:928: Placing additional elements for C24
+DEBUG: board_modifier.py:132: Getting C24 footprint position: (209550000, 66675000)
+DEBUG: board_modifier.py:84: Searching for optional C24 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C24 footprint position: (209550000, 66675000)
+DEBUG: key_placer.py:928: Placing additional elements for C6
+DEBUG: board_modifier.py:132: Getting C6 footprint position: (161925000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional C6 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C6 footprint position: (161925000, 38100000)
+DEBUG: key_placer.py:928: Placing additional elements for C46
+DEBUG: board_modifier.py:132: Getting C46 footprint position: (109537500, 104775000)
+DEBUG: board_modifier.py:84: Searching for optional C46 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C46 footprint position: (109537500, 104775000)
+DEBUG: key_placer.py:928: Placing additional elements for C13
+DEBUG: board_modifier.py:132: Getting C13 footprint position: (304800000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional C13 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C13 footprint position: (304800000, 38100000)
+DEBUG: key_placer.py:928: Placing additional elements for C60
+DEBUG: board_modifier.py:132: Getting C60 footprint position: (137731500, 123825000)
+DEBUG: board_modifier.py:84: Searching for optional C60 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C60 footprint position: (137731500, 123825000)
+DEBUG: key_placer.py:928: Placing additional elements for C14
+DEBUG: board_modifier.py:132: Getting C14 footprint position: (333375000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional C14 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C14 footprint position: (333375000, 38100000)
+DEBUG: key_placer.py:928: Placing additional elements for C15
+DEBUG: board_modifier.py:132: Getting C15 footprint position: (38100000, 66675000)
+DEBUG: board_modifier.py:84: Searching for optional C15 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C15 footprint position: (38100000, 66675000)
+DEBUG: key_placer.py:928: Placing additional elements for C47
+DEBUG: board_modifier.py:132: Getting C47 footprint position: (128587500, 104775000)
+DEBUG: board_modifier.py:84: Searching for optional C47 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C47 footprint position: (128587500, 104775000)
+DEBUG: key_placer.py:928: Placing additional elements for C79
+DEBUG: board_modifier.py:132: Getting C79 footprint position: (347662500, 142875000)
+DEBUG: board_modifier.py:84: Searching for optional C79 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C79 footprint position: (347662500, 142875000)
+DEBUG: key_placer.py:928: Placing additional elements for C55
+DEBUG: board_modifier.py:132: Getting C55 footprint position: (280987500, 104775000)
+DEBUG: board_modifier.py:84: Searching for optional C55 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C55 footprint position: (280987500, 104775000)
+DEBUG: key_placer.py:928: Placing additional elements for C67
+DEBUG: board_modifier.py:132: Getting C67 footprint position: (271081500, 123825000)
+DEBUG: board_modifier.py:84: Searching for optional C67 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C67 footprint position: (271081500, 123825000)
+DEBUG: key_placer.py:928: Placing additional elements for C28
+DEBUG: board_modifier.py:132: Getting C28 footprint position: (285750000, 66675000)
+DEBUG: board_modifier.py:84: Searching for optional C28 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C28 footprint position: (285750000, 66675000)
+DEBUG: key_placer.py:928: Placing additional elements for C29
+DEBUG: board_modifier.py:132: Getting C29 footprint position: (38100000, 85725000)
+DEBUG: board_modifier.py:84: Searching for optional C29 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C29 footprint position: (38100000, 85725000)
+DEBUG: key_placer.py:928: Placing additional elements for C63
+DEBUG: board_modifier.py:132: Getting C63 footprint position: (194881500, 123825000)
+DEBUG: board_modifier.py:84: Searching for optional C63 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C63 footprint position: (194881500, 123825000)
+DEBUG: key_placer.py:928: Placing additional elements for C12
+DEBUG: board_modifier.py:132: Getting C12 footprint position: (285750000, 38100000)
+DEBUG: board_modifier.py:84: Searching for optional C12 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C12 footprint position: (285750000, 38100000)
+DEBUG: key_placer.py:928: Placing additional elements for C56
+DEBUG: board_modifier.py:132: Getting C56 footprint position: (38100000, 123825000)
+DEBUG: board_modifier.py:84: Searching for optional C56 footprint in C:\Users\abhin\Desktop\Kicad\Keeb.kicad_pcb
+DEBUG: board_modifier.py:119: Setting C56 footprint position: (38100000, 123825000)
+INFO: key_placer.py:517: Removing dangling tracks
+INFO: key_placer.py:532: Removing d9886998-6b91-486e-9f5f-254f369711d3
+INFO: key_placer.py:532: Removing bb09f9c8-6ee5-45ad-8e18-829365caf817
