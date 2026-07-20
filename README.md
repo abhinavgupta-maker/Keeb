@@ -1,6 +1,6 @@
 # Keeb
 
-This is my first ever 75% keyboard which consists of a Rotary encoder, 0.91' Oled Display and 4 Macro keys which helps for shortcuts. 
+This is my first ever 75% keyboard which consists of a Rotary encoder, 0.91' Oled Display and 3 Macro keys which helps for shortcuts. 
 
 # Zine
 
@@ -20,19 +20,20 @@ So, i was actually stuck with one project to make for qualification and i am not
 
 # PCB
 
-<img width="1565" height="767" alt="image" src="https://github.com/user-attachments/assets/2c8d8068-9445-4879-858a-27ae5c55bca0" />
+<img width="1577" height="810" alt="image" src="https://github.com/user-attachments/assets/15db6b91-938f-4eb7-9fb5-98d059a73470" />
 
 # Schematic
-<img width="1241" height="762" alt="image" src="https://github.com/user-attachments/assets/18fcfa6e-22ee-4aeb-bf5f-eeee6ace11b9" />
-<img width="1092" height="843" alt="image" src="https://github.com/user-attachments/assets/005e77fc-9750-4ee3-a6f3-be2dca2e36cd" />
+
+<img width="1172" height="616" alt="image" src="https://github.com/user-attachments/assets/0042d879-4c96-42c5-95ec-e3cd50ab061f" />
+<img width="817" height="848" alt="image" src="https://github.com/user-attachments/assets/ea7d7253-893f-42a3-ac23-8cb89e849e4b" />
 
 # PCB 3D Model
-<img width="1217" height="705" alt="image" src="https://github.com/user-attachments/assets/342a1e60-3eef-47e5-a091-d4f0356fd0ef" />
 
+<img width="1180" height="730" alt="image" src="https://github.com/user-attachments/assets/dd61349a-0588-46c1-8fdc-2e6182e062cb" />
 
 # CAD
-<img width="1086" height="745" alt="Screenshot 2026-06-23 173947" src="https://github.com/user-attachments/assets/62148ab3-665d-435e-a7ce-2e38867fe30f" />
-<img width="1237" height="713" alt="image" src="https://github.com/user-attachments/assets/ff14dc89-79a6-4e98-806b-d4f7f9809615" />
+
+
 
 # Assembly Steps
 
