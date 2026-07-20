@@ -33,7 +33,7 @@ So, i was actually stuck with one project to make for qualification and i am not
 
 # CAD
 
-
+<img width="1402" height="747" alt="image" src="https://github.com/user-attachments/assets/e9f0064d-37e5-452f-bd6c-6a546b96728a" />
 
 # Assembly Steps
 
