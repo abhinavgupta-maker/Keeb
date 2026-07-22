@@ -1,7 +1,5 @@
 # keeb
 
-![keeb](imgur.com image replace me!)
-
 *A short description of the keyboard/project*
 
 * Keyboard Maintainer: [Abhinav](https://github.com/abhinavgupta-maker)
