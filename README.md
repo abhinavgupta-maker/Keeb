@@ -29,7 +29,7 @@ So, i was actually stuck with one project to make for qualification and i am not
 
 # PCB 3D Model
 
-<img width="1180" height="730" alt="image" src="https://github.com/user-attachments/assets/dd61349a-0588-46c1-8fdc-2e6182e062cb" />
+<img width="1342" height="737" alt="image" src="https://github.com/user-attachments/assets/aff6c814-0e39-4eff-8200-115040c3c739" />
 
 # CAD
 
