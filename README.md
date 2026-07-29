@@ -4,7 +4,7 @@ This is my first ever 75% keyboard which consists of a Rotary encoder, 0.91' Ole
 
 # Zine
 
-<img width="1054" height="1493" alt="image" src="https://github.com/user-attachments/assets/a15866ff-0e64-4bd3-ba0a-1c6c3a011426" />
+<img width="1054" height="1492" alt="image" src="https://github.com/user-attachments/assets/2b9ced31-1ef4-4a78-9b44-61a8e95eb1c8" />
 
 # Usage
 
@@ -33,7 +33,7 @@ So, i was actually stuck with one project to make for qualification and i am not
 
 # CAD
 
-<img width="1280" height="740" alt="Screenshot 2026-07-23 155906" src="https://github.com/user-attachments/assets/c311d392-628f-417e-86c7-39e5eb1ed2a5" />
+<img width="1245" height="705" alt="Screenshot 2026-07-29 103541" src="https://github.com/user-attachments/assets/d372c6d0-5155-40d5-b04c-235a165a3a39" />
 
 # Assembly Steps
 
