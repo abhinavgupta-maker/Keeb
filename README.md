@@ -20,7 +20,7 @@ So, i was actually stuck with one project to make for qualification and i am not
 
 # PCB
 
-<img width="1577" height="810" alt="image" src="https://github.com/user-attachments/assets/15db6b91-938f-4eb7-9fb5-98d059a73470" />
+<img width="1578" height="728" alt="image" src="https://github.com/user-attachments/assets/a070a624-31d7-41ec-a226-98de662efdee" />
 
 # Schematic
 
